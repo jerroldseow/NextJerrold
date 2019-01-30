@@ -1,0 +1,17 @@
+img {
+    width: 100px;
+    height: auto;
+    border-image-width: 5%
+}
+
+ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 0;
+    list-style-type: none;
+    margin-left: 0;
+}

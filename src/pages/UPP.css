@@ -1,0 +1,16 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 0;
+    list-style-type: none;
+    margin-left: 0;
+}

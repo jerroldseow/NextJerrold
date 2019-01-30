@@ -1,0 +1,30 @@
+
+input[type=checkbox] ~ Form > div {
+    position: absolute;
+    z-index: 2;
+    width: 480px;
+    margin: auto;
+    height: 70vh;
+    background-color: rgb(231, 255, 13);
+    margin-top: -100vh;
+    /* margin-top: inherit; */
+    transition: 0.5s;
+}
+
+input[type=checkbox]:checked ~ Form > div {
+    margin-top: unset;
+    /* margin-top: -100vh; */
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+Form > * {
+    padding: 2rem;
+}
+
+Form Button {
+    /* position: absolute; */
+    margin-left: 2rem;
+}
